@@ -1,0 +1,10 @@
+﻿
+
+public enum WIFISTREGTH
+{
+    WIFI_NULL=1,
+    WIFI_LOW=2,
+    WIFI_MIDDLE=3,
+    WIFI_HIGH=4,
+    WIFI_UNKNOWN=5
+}

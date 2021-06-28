@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e6765050038144fa553eb06f7a2696, type: 3}
+  m_Name: SDKConfiguration
+  m_EditorClassIdentifier: 
+  Configs:
+  - section: Module_InputSystem
+    KEY_VALUE:
+    - Name: ActiveHead
+      Value: 1
+    - Name: ActiveGGT26Dof
+      Value: 1
+    - Name: ActiveBT3Dof
+      Value: 1
+    - Name: ActiveKS
+      Value: 1
+    - Name: KSModeSet3Dof
+      Value: 0
+    - Name: UseK102Model
+      Value: 1
+    - Name: GreyHandOffsetX
+      Value: 0
+    - Name: GreyHandOffsetY
+      Value: 0
+    - Name: GreyHandOffsetZ
+      Value: 0
+    - Name: GGT26DofHandDataLerp
+      Value: 1
+    - Name: GGT26DofHandEffectColor
+      Value: 0
+    - Name: K11_Left_EnterKeyAlias
+      Value: LTrigger
+    - Name: K11_Right_EnterKeyAlias
+      Value: RTrigger
+    - Name: K101_Left_EnterKeyAlias
+      Value: LHallForward
+    - Name: K101_Right_EnterKeyAlias
+      Value: RHallForward
+    - Name: K102_Left_EnterKeyAlias
+      Value: LHallForward
+    - Name: K102_Right_EnterKeyAlias
+      Value: RHallForward
+    - Name: K101_Left_CalibrationKeyAlias
+      Value: LFunction
+    - Name: K101_Right_CalibrationKeyAlias
+      Value: RFunction
+    - Name: K102_Left_CalibrationKeyAlias
+      Value: LFunction
+    - Name: K102_Right_CalibrationKeyAlias
+      Value: RFunction
+    - Name: K11_Left_CalibrationKeyAlias
+      Value: DOWN
+    - Name: K11_Right_CalibrationKeyAlias
+      Value: A
+    - Name: ISGCPriorityGGT26Dof
+      Value: 1
+    - Name: K102PointerAngleOffsetX
+      Value: 43
+    - Name: K102PointerAngleOffsetY
+      Value: 0
+    - Name: K102PointerAngleOffsetZ
+      Value: 0
+    - Name: K11_Left_AnotherEnterKeyAlias
+      Value: UP
+    - Name: K11_Right_AnotherEnterKeyAlias
+      Value: Y
+    - Name: ShowHandCursor
+      Value: 1
+    - Name: FarPointerRotationOffsetX
+      Value: -10
+    - Name: FarPointerRotationOffsetY
+      Value: 0
+    - Name: FarPointerRotationOffsetZ
+      Value: 0
+    - Name: ShowHandRender
+      Value: 0
+    - Name: HandRenderEMISSIONIntensity
+      Value: 0.2
+    - Name: HandModelType
+      Value: 0
+    - Name: EnableHandFarInteraction
+      Value: 1
+    - Name: EnableHandTouchInteraction
+      Value: 1
+    - Name: EnableHandGrabInteraction
+      Value: 1
+    - Name: ShowHandLine
+      Value: 0
+    - Name: OutCameraShowHandLine
+      Value: 0
+    - Name: ShowDebugLog
+      Value: 0
+  - section: Module_Slam
+    KEY_VALUE:
+    - Name: IsUseOpticsCalibration
+      Value: 1
+    - Name: trackPositionScale
+      Value: 1
+    - Name: IsSlamUse3Dof
+      Value: 0
+    - Name: LeftShoulderX
+      Value: -0.15
+    - Name: LeftShoulderY
+      Value: -0.13
+    - Name: LeftShoulderZ
+      Value: 0
