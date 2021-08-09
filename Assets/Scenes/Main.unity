@@ -1745,12 +1745,6 @@ MonoBehaviour:
   m_ConfirmationTextColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
   m_SelectionTextExtra: {fileID: 2028137324}
   m_SelectionTextExtraColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
---- !u!23 &66636884 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3438714565165432971, guid: 7cd0ceba7525bdc42a36be841a8aad16,
-    type: 3}
-  m_PrefabInstance: {fileID: 1102153738}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &73820440
 GameObject:
   m_ObjectHideFlags: 0
@@ -14393,6 +14387,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2157779445067456087, guid: 7cd0ceba7525bdc42a36be841a8aad16,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cd0ceba7525bdc42a36be841a8aad16, type: 3}
 --- !u!4 &1102153740 stripped
@@ -18866,12 +18865,6 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2300000, guid: 25ba8134f2fcdc447aa836e22af16c68,
     type: 3}
   m_PrefabInstance: {fileID: 1509816930}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &1512532371 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3767564918960960188, guid: 7cd0ceba7525bdc42a36be841a8aad16,
-    type: 3}
-  m_PrefabInstance: {fileID: 1102153738}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1527246407
 GameObject:
@@ -26219,12 +26212,6 @@ Transform:
   m_Father: {fileID: 1139965982}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1704105190 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6863490851840889040, guid: 7cd0ceba7525bdc42a36be841a8aad16,
-    type: 3}
-  m_PrefabInstance: {fileID: 1102153738}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1726887557
 GameObject:
   m_ObjectHideFlags: 0
@@ -27159,13 +27146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e68766e4ebef04fb6df0a019730824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _normalLine: {fileID: 2100000, guid: 11727442de02c1d4b8d37a063c748aec, type: 2}
-  _dragLine: {fileID: 2100000, guid: 876c7e981edab3a44918b5c51482a286, type: 2}
-  _quan_1: {fileID: 2100000, guid: 7592dfbc61562784cb9a077857d33c8f, type: 2}
-  _quan_2: {fileID: 2100000, guid: bbcc6908c560242449decfb59be8d657, type: 2}
-  _curorFocusRender: {fileID: 1704105190}
-  _curorPressRender: {fileID: 66636884}
-  _curorFRestRender: {fileID: 1512532371}
   m_SketchSurface: {fileID: 593121473}
   m_DefaultSketchPlaybackMode: 0
   m_GazeMaxAngleFromPointing: 85
